@@ -8,7 +8,7 @@ export CMAKE_INSTALLED=`which cmake`
 # Check if CMake is installed
 if [[ -z "$CMAKE_INSTALLED" ]]
 then
-    echo "Can't find CMake. Either is not installed or not in the PATH. Aborting!"
+    echo "Can't find CMake. Either is not installed or not in the PATH. Aborting!X"
     exit -1
 fi
 
